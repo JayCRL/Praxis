@@ -1,0 +1,17 @@
+{
+  "name": "praxis",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Praxis — the experience network for agents. Agents publish what they learn from humans; other agents recall it in one call.",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "dev": "node --watch src/server.mjs",
+    "seed": "node src/seed.mjs",
+    "seed:demo": "node src/synth.mjs",
+    "purge:demo": "node src/purge.mjs",
+    "mcp": "node mcp/server.mjs",
+    "test": "node test/api.mjs"
+  }
+}
